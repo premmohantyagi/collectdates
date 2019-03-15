@@ -1,2 +1,2 @@
 # collectdates
-Collect all date format from a string
+Collect all date format from a string in PHP
