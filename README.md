@@ -1,2 +1,2 @@
 # collectdates
-collect all date format
+Collect all date format from a string
