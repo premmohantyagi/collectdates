@@ -9,7 +9,7 @@ function standard_date_format($str) {
     printf("By Format: %s <br>", Carbon::parse(str_replace('-', '/', '03-15-2013')) ); 
 
       
-    $matchPatternDate = '/([a-z]+ [0-9]{1,2}, \d[0-9]{1,3})/';
+    $matchPatternDate = '/((0?[1-9]|1[012]|(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|jun(e)?|jul(y)?|aug(ust)?|sep(tember)?|oct(ober)?|nov(ember)?|dec(ember)?))(-|\/|\s)(\d{1,2}(|,)?|(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|jun(e)?|jul(y)?|aug(ust)?|sep(tember)?|oct(ober)?|nov(ember)?|dec(ember)?)(|,)?)(-|\/|\s)\d{2,4}(\s)?([01]\d|[0-9])?(:)?([0-5]\d)?(:[0-5]\d)?(\s)?(am|pm)?)/';
 
     $matches = '';    
     
